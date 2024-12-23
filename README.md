@@ -3,13 +3,18 @@
 <h2>🚧 Work in Progress 🚧</h2>
 <p><strong>This repository is still under construction and is being actively updated. 🔨</strong></p>
 <p>Stay tuned for more patterns and improvements! 🔄</p>
-<h3>Patterns in this category:</h3>
-<ul>
-    <li><strong>Factory Method</strong>: Defines an interface for creating objects, but allows subclasses to alter the type of objects that will be created.</li>
-    <li><strong>Singleton</strong>: Ensures a class has only one instance and provides a global point of access to it.</li>
-    <li><strong>Builder</strong>: Allows the construction of complex objects step by step.</li>
-</ul>
-<h2> Project Structure </h2>  
+<h2>🛠 Design Patterns Categories</h2>
+<p>Design patterns can be grouped into three main categories:</p>
+
+<h3>1. Creational Patterns 🏗️</h3>
+<p>Creational patterns focus on object creation mechanisms, trying to create objects in a way that is suitable to the situation. They abstract the instantiation process to make it more flexible and dynamic.</p>
+
+<h3>2. Structural Patterns 🏗️</h3>
+<p>Structural patterns deal with the composition of classes or objects. They help ensure that the relationships between objects are well-structured and efficient.</p>
+
+<h3>3. Behavioral Patterns 🤖</h3>
+<p>Behavioral patterns focus on communication between objects, making sure that objects can work together and communicate in an effective way.</p>
+<h2>📂 Project Structure </h2>  
 <pre>design-patterns-kotlin/
 ├── creational/
 │   ├── FactoryMethod.kt        
